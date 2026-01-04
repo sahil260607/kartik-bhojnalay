@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fdf6ec;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #7b0000, #b22222);
+    color: white;
+    text-align: center;
+    padding: 22px 10px;
+}
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+    color: Orange;
+    
+}
+   header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+}
+
+header p {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+/* NAVBAR */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.25);
+    transform: translateY(-2px);
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url("https://images.unsplash.com/photo-1628294896516-344152572ee8") center/cover;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* BUTTON */
+button {
+    background: #ffcc00;
+    color: #7b0000;
+    padding: 12px 26px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+    background: #ffb300;
+    transform: scale(1.05);
+}
+
+/* CONTENT */
+.content {
+    padding: 25px;
+}
+
+/* MENU CARDS */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.menu-item {
+    background: white;
+    padding: 18px;
+    border-radius: 14px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.menu-item span {
+    color: #7b0000;
+}
+
+/* MAP */
+iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+/* FOOTER */
+footer {
+    background: #2a2a2a;
+    color: #ddd;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.badge {
+    display: inline-block;
+    background: #ffcc00;
+    color: #7b0000;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 8px;
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    background: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.whatsapp:hover {
+    background: #1ebe5d;
+}
